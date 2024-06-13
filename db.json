@@ -1,0 +1,102 @@
+{
+    "days": [
+        {
+            "id": 1,
+            "day": "Sunday",
+            "body": "None :) today is a rest day!"
+        },
+        {
+            "id": 2,
+            "day": "Monday",
+            "body": "Lower Body"
+        },
+        {
+            "id": 3,
+            "day": "Tuesday",
+            "body": "Upper Body"
+        },
+        {
+            "id": 4,
+            "day": "Wednesday",
+            "body":"None :) today is a rest day!"
+        },
+        {
+            "id": 5,
+            "day": "Thursday",
+            "body":"Lower Body"
+        },
+        {
+            "id": 6,
+            "day": "Friday",
+            "body":"Upper Body"
+        },
+        {
+            "id": 7,
+            "day": "Saturday",
+            "body":"None :) today is a rest day!"
+        }
+    ],
+    
+    "workouts": [
+        {
+            "id": 1,
+            "name": "Squat",
+            "reps": "3 x 10",
+            "body": "Lower Body"
+        },
+        {
+            "id": 2,
+            "name": "Push Press",
+            "reps": "3 x 10",
+            "body": "Lower Body"
+        },
+        {
+            "id": 3,
+            "name": "Leg Extentions",
+            "reps": "3 x 10",
+            "body": "Lower Body"
+        },
+        {
+            "id": 4,
+            "name": "Leg Curls",
+            "reps": "3 x 10",
+            "body": "Lower Body"
+        },
+        {
+            "id": 5,
+            "name": "Calf Raises",
+            "reps": "3 x 10-15",
+            "body": "Lower Body"
+        },
+        {
+            "id": 6,
+            "name": "Bench Press",
+            "reps": "3 x 10",
+            "body": "Upper Body"
+        },
+        {
+            "id": 7,
+            "name": "Incline Bench",
+            "reps": "3 x 10",
+            "body": "Upper Body"
+        },
+        {
+            "id": 8,
+            "name": "Cable Fly's",
+            "reps": "3 x 10, Each position",
+            "body": "Upper Body"
+        },
+        {
+            "id": 9,
+            "name": "Pull Downs",
+            "reps": "3 x 10",
+            "body": "Upper Body"
+        },
+        {
+            "id": 10,
+            "name": "Wrist Curls",
+            "reps": "3 x 10 each arm",
+            "body": "Upper Body"
+        }
+    ]
+}
