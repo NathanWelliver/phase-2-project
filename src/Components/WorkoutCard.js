@@ -1,13 +1,18 @@
 import React from "react";
-
+import Accordion from "react-bootstrap/Accordion"
 
 function WorkoutCard({workout}) {
     return (
-        <article>
-            <h2>{workout.name}</h2>
-            <h4>{workout.reps}</h4>
-            <h4>{workout.body}</h4>
-        </article>
+        <Accordion>
+            <Accordion.Item eventKey="0">
+                <Accordion.Header>{workout.name}</Accordion.Header>
+                <Accordion.Body>
+                Reps: {workout.reps} 
+                <br/>
+                Body Section: {workout.body}
+                </Accordion.Body>
+            </Accordion.Item>
+        </Accordion>
     )
 }
 
