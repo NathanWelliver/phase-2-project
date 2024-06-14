@@ -18,10 +18,10 @@ function NavBar() {
         About
       </NavLink>
       <NavLink 
-      to="/form"
+      to="/rest"
       className="nav-link"
       >
-      Add Workouts
+      Rest!
       </NavLink>
     </nav>
     );
