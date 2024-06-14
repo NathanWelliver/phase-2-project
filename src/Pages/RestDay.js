@@ -1,16 +1,7 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import NavBar from "../Components/NavBar";
 
 function RestDay(){
-    const [rest, setRest] = useState([])
-
-    useEffect(() => {
-        fetch("http://localhost:3000/rest")
-        .then(r => r.json())
-        .then(data => setRest(data))
-        .catch(error => console.log(error))
-    }, [])
 
     return (
         <>
