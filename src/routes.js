@@ -1,12 +1,13 @@
+import App from "./App";
 import Home from "./Pages/Home";
-import Form from "./Pages/Form";
+import RestDay from "./Pages/RestDay";
 import About from "./Pages/About";
 import ErrorPage from "./Pages/ErrorPage";
 
 const routes = [
     {
         path: "/",
-        Element: <Home />,
+        Element: <App />,
         errorElement: <ErrorPage />,
         children: [
             {
@@ -18,8 +19,8 @@ const routes = [
                 element: <About />
             },
             {
-                path: "/form",
-                element: <Form />
+                path: "/rest",
+                element: <RestDay />
             }
         ]
         
