@@ -2,7 +2,7 @@ import React from "react";
 
 function DateComponent({date}){
     return (
-        <span>{date.toDateString()}</span>
+        <span className="date">{date.toDateString()}</span>
     )
 }
 
