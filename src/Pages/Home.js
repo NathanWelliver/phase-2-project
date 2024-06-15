@@ -39,23 +39,23 @@ function Home(){
     }, [date, workouts]);
 
     return (
-        <>
+        <div className="home">
             <header>
                 <NavBar />
             </header>
             <main>
-                <h1>Welcome!</h1>
-                    <h2>
+                <h1 className="welcome-header">Welcome!</h1>
+                    <h2 className="today">
                         Today is: <DateComponent date={date}/>
                     </h2>
-                <h3>
+                <h3 className="rec-workouts">
                     <WorkoutOfDay 
                         bodyPart={bodyPart}
                         workout={workout}
                     />
                 </h3>
             </main>
-        </>
+        </div>
     )
 }
 
