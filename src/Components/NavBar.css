@@ -1,17 +1,21 @@
-.navbar > a{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 70px;
-    padding: 5px;
-    margin: 0 6px 6px;
-    background: lightblue;
-    text-decoration: none;
-    text-align: center;
-    font-size: min(10vw, 15px) ;
-    color: black;
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust this value to control the space between buttons */
+    background-color: #333;
+    padding: 10px 20px; /* Add padding to create space around the buttons */
 }
-  
-a.active {
-    background: black;
+
+nav a {
     color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* Add padding for better clickability */
+    border-radius: 5px; /* Optional: add rounded corners for buttons */
+    background-color: #444; /* Optional: add background color to buttons */
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #555; /* Optional: change background color on hover */
 }
