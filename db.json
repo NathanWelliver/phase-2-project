@@ -59,6 +59,18 @@
       "name": "Wrist Curls",
       "reps": "3 x 10 each arm",
       "body": "Upper Body"
+    },
+    {
+      "id": "135a",
+      "name": "Skull Crushers",
+      "reps": "3 x 8",
+      "body": "Upper Body"
+    },
+    {
+      "id": "2b3a",
+      "name": "Dumbell Fly's",
+      "reps": "3 x 10",
+      "body": "Upper Body"
     }
   ]
 }
