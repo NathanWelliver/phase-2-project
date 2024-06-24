@@ -27,15 +27,15 @@ function RestDay(){
             electrolytes and carbohydrates to replenish what your body has used. 
             </h5>
             <h3>Foods to help recovery:</h3>
-            <h5>
-                Turkey sandwiches
-                Pasta dishes
-                Rice bowls with vegetables and beans or chicken
-                A banana and low-fat chocolate milk (full-fat milk may be harder to digest after a workout)
-                Whole-grain crackers and peanut butter
-                A smoothie with yogurt and frozen berries
-                Find the food combinations that make you feel best and enjoy!
-            </h5>
+            <ul>
+                <li>Turkey sandwiches</li>
+                <li>Pasta dishes</li>
+                <li>Rice bowls with vegetables and beans or chicken</li>
+                <li>A banana and low-fat chocolate milk (full-fat milk may be harder to digest after a workout)</li>
+                <li>Whole-grain crackers and peanut butter</li>
+                <li>A smoothie with yogurt and frozen berries</li>
+                <li>Find the food combinations that make you feel best and enjoy!</li>
+            </ul>
         </main>
         </>
     )
