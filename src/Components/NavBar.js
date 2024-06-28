@@ -8,13 +8,13 @@ function NavBar() {
       to="/"
       className="nav-link"
       >
-        Home
+        Todays Workout
       </NavLink>
       <NavLink 
-      to="/about"
+      to="/workouts"
       className="nav-link"
       >
-        About
+        Workouts
       </NavLink>
       <NavLink 
       to="/rest"
