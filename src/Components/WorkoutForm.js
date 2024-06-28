@@ -36,7 +36,8 @@ function WorkoutForm({setWorkouts}){
         .then(r => r.json())
         .then(addedWorkout => {
             setWorkouts((workouts) => [...workouts, addedWorkout])
-        });
+        })
+        .then(e.target.reset())
     };
 
     return (
