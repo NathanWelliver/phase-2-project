@@ -1,7 +1,7 @@
 import App from "./App";
-import Home from "./Pages/Home";
+import TodaysWorkout from "./Pages/TodaysWorkout";
 import RestDay from "./Pages/RestDay";
-import About from "./Pages/About";
+import Workouts from "./Pages/Workouts";
 import ErrorPage from "./Pages/ErrorPage";
 
 const routes = [
@@ -12,11 +12,11 @@ const routes = [
         children: [
             {
                 path: "/",
-                element: <Home />
+                element: <TodaysWorkout />
             },
             {
-                path: "/about",
-                element: <About />
+                path: "/workouts",
+                element: <Workouts />
             },
             {
                 path: "/rest",
