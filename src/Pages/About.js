@@ -1,27 +1,17 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import NavBar from "../Components/NavBar";
 import WorkoutCard from "../Components/WorkoutCard";
 import { Accordion } from "react-bootstrap";
 import WorkoutForm from "../Components/WorkoutForm";
+import { useOutletContext } from "react-router-dom";
+
 
 function About() {
-  const [workouts, setWorkouts] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3000/workouts")
-    .then(r => r.json())
-    .then(data => setWorkouts(data))
-    .catch(error => console.log(error))
-}, [])
+  const {workouts, setWorkouts} = useOutletContext();
 
 const workoutList = workouts.map(workout => <WorkoutCard key={workout.id} workout={workout}/>)
 
     return (
-      <>
-      <header>
-        <NavBar />
-      </header>
+      <div className="about">
         <main>
           <Accordion>
             <Accordion.Item eventKey="0">
@@ -32,9 +22,9 @@ const workoutList = workouts.map(workout => <WorkoutCard key={workout.id} workou
             </Accordion.Item>
           </Accordion>
           <h1>Workouts:</h1>
-          {workoutList}
+          <div>{workoutList}</div>
         </main>
-      </>
+      </div>
     );
   };
   
