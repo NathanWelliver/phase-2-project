@@ -45,3 +45,13 @@ button:hover {
 .workout-of-day p {
   margin: 10px 0;
 }
+
+ul {
+  text-align: left;
+  align-self: center;
+}
+
+.food-list {
+  display: flex;
+  flex-direction: column;
+}
