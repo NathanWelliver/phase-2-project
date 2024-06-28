@@ -1,13 +1,9 @@
 import React from "react";
-import NavBar from "../Components/NavBar";
 
 function RestDay(){
 
     return (
-        <>
-        <header>
-            <NavBar />
-        </header>
+        <div className="rest-page">
         <main>
             <h1>Remember To Take a Rest!</h1>
             <h4>
@@ -27,6 +23,7 @@ function RestDay(){
             electrolytes and carbohydrates to replenish what your body has used. 
             </h5>
             <h3>Foods to help recovery:</h3>
+            <div className="food-list">
             <ul>
                 <li>Turkey sandwiches</li>
                 <li>Pasta dishes</li>
@@ -36,8 +33,9 @@ function RestDay(){
                 <li>A smoothie with yogurt and frozen berries</li>
                 <li>Find the food combinations that make you feel best and enjoy!</li>
             </ul>
+            </div>
         </main>
-        </>
+        </div>
     )
 }
 
