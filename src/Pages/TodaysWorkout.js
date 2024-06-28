@@ -1,4 +1,3 @@
-import WorkoutOfDay from "../Components/WorkoutOfDay";
 import React from "react";
 import {useState, useEffect} from "react";
 import { useOutletContext } from "react-router-dom";
@@ -49,10 +48,16 @@ function Home(){
                         Today is: <span className="date">{date.toDateString()}</span>
                     </h2>
                 <h3 className="rec-workouts">
-                    <WorkoutOfDay 
-                        bodyPart={bodyPart}
-                        workout={workout}
-                    />
+                <div>
+                    {bodyPart !== 'Rest Day' ? (
+                        <>
+                            <p>Recommended Workout: {bodyPart}</p>
+                            <p>Random workout to try: {workout}</p>
+                        </>
+                    ) : (
+                        <p>Today is a rest day. Enjoy your rest!</p>
+                    )}
+                </div>
                 </h3>
             </main>
         </div>
