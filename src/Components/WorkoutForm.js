@@ -3,7 +3,7 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
-function WorkoutForm({setWorkouts}){
+function WorkoutForm({ setWorkouts }){
     const [formData, setFormData] = useState({
         name: "",
         reps: "",
@@ -47,7 +47,8 @@ function WorkoutForm({setWorkouts}){
                 <Form.Control 
                     type="text" 
                     name="name" 
-                    placeholder="Enter workout name" 
+                    placeholder="Enter workout name"
+                    value={formData.name}
                     onChange={handleChange}/>
             </Form.Group>
 
@@ -57,6 +58,7 @@ function WorkoutForm({setWorkouts}){
                     type="text" 
                     placeholder="Enter # of sets x reps"
                     name="reps"
+                    value={formData.reps}
                     onChange={handleChange}
                     />
             </Form.Group>
@@ -67,6 +69,7 @@ function WorkoutForm({setWorkouts}){
                     type="text" 
                     placeholder="Enter target body part" 
                     name="body"
+                    value={formData.body}
                     onChange={handleChange}
                     />
             </Form.Group>
