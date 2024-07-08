@@ -28,7 +28,7 @@ function Home(){
         if (randomWorkout){
             setWorkout(randomWorkout.name + '(' + randomWorkout.reps + ')');
         }
-    }, [date, workouts]);
+    }, [workouts]);
 
     return (
         <div className="home">
