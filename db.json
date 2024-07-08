@@ -65,6 +65,12 @@
       "name": "Dumbell Fly's",
       "reps": "3 x 8",
       "body": "Upper Body"
+    },
+    {
+      "id": "2ee6",
+      "name": "Stiff Leg Deadlift",
+      "reps": "4 x 8",
+      "body": "Lower Body"
     }
   ]
 }
