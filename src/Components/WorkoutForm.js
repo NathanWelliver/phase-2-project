@@ -37,7 +37,11 @@ function WorkoutForm({ setWorkouts }){
         .then(addedWorkout => {
             setWorkouts((workouts) => [...workouts, addedWorkout])
         })
-        .then(e.target.reset())
+        .then(setFormData({
+            name: "",
+            reps: "",
+            body: ""
+        }))
     };
 
     return (
