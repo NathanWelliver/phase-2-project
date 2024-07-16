@@ -8,3 +8,10 @@ The About page contains all of the workouts in our database. If there is a worko
 
 # Rest Page
 The Rest page is one of my favorites. Even some of the most experienced lifters sometimes forget the importance of rest days. This page is dedicated to informing everyone about a rest day's importance for healing the body and recovering. You can't make progress if you don't let your body and mind heal!
+
+# Installation
+THIS SHOULD ALL BE DONE IN THE CONSOLE
+
+Run npm install,
+then run "json-server --watch db.json" this will launch the db.json server.
+Then you want to type in "npm start", this will launch the app and open a browser tab.
