@@ -14,4 +14,4 @@ THIS SHOULD ALL BE DONE IN THE CONSOLE
 
 Run npm install,
 then run "json-server --watch db.json" this will launch the db.json server.
-Then you want to type in "npm start", this will launch the app and open a browser tab.
+Then in second terminal you want to type in "npm start", this will launch the app and open a browser tab.
